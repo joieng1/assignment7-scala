@@ -1,0 +1,102 @@
+2024.12.02 15:07:02 INFO  Started: Metals version 1.4.1 in folders '/private/var/folders/sl/xxbyztsj3cx7ydckqldv5sdw0000gn/T/hello-world' for client Visual Studio Code - Insiders 1.96.0-insider.
+2024.12.02 15:07:03 WARN  Flyway upgrade recommended: H2 2.3.232 is newer than this version of Flyway and support has not been tested. The latest supported version of H2 is 2.2.224.
+Dec 02, 2024 3:07:20 PM org.eclipse.lsp4j.jsonrpc.services.GenericEndpoint notify
+INFO: Unsupported notification method: $/setTrace
+2024.12.02 15:07:23 INFO  Shutting down server
+2024.12.02 15:07:23 INFO  shutting down Metals
+2024.12.02 15:07:23 INFO  Exiting server
+2024.12.02 15:07:29 INFO  Started: Metals version 1.4.1 in folders '/Users/johnieng/Desktop/CSC/CSC 430/hello-world' for client Visual Studio Code - Insiders 1.96.0-insider.
+Dec 02, 2024 3:07:30 PM org.eclipse.lsp4j.jsonrpc.services.GenericEndpoint notify
+INFO: Unsupported notification method: $/setTrace
+2024.12.02 15:07:32 WARN  Flyway upgrade recommended: H2 2.3.232 is newer than this version of Flyway and support has not been tested. The latest supported version of H2 is 2.2.224.
+2024.12.02 15:07:48 INFO  no build target found for /Users/johnieng/Desktop/CSC/CSC 430/hello-world/build.sbt. Using presentation compiler with project's scala-library version: 3.3.4
+2024.12.02 15:07:48 INFO  no build target found for /Users/johnieng/Desktop/CSC/CSC 430/hello-world/build.sbt. Using presentation compiler with project's scala-library version: 3.3.4
+2024.12.02 15:07:51 INFO  no build target found for /Users/johnieng/Desktop/CSC/CSC 430/hello-world/src/main/scala/Main.scala. Using presentation compiler with project's scala-library version: 3.3.4
+2024.12.02 15:07:51 INFO  no build target found for /Users/johnieng/Desktop/CSC/CSC 430/hello-world/src/main/scala/Main.scala. Using presentation compiler with project's scala-library version: 3.3.4
+2024.12.02 15:07:51 INFO  no build target found for /Users/johnieng/Desktop/CSC/CSC 430/hello-world/src/main/scala/Main.scala. Using presentation compiler with project's scala-library version: 3.3.4
+Dec 02, 2024 3:07:51 PM org.eclipse.lsp4j.jsonrpc.RemoteEndpoint handleCancellation
+WARNING: Unmatched cancel notification for request id 10
+Dec 02, 2024 3:08:29 PM org.eclipse.lsp4j.jsonrpc.services.GenericEndpoint notify
+INFO: Unsupported notification method: $/setTrace
+Dec 02, 2024 3:08:44 PM org.eclipse.lsp4j.jsonrpc.services.GenericEndpoint notify
+INFO: Unsupported notification method: $/setTrace
+2024.12.02 15:08:44 INFO  no build target found for /Users/johnieng/Desktop/CSC/CSC 430/hello-world/src/main/scala/Main.scala. Using presentation compiler with project's scala-library version: 3.3.4
+2024.12.02 15:08:55 WARN  Build server is not auto-connectable.
+2024.12.02 15:08:55 INFO  no build target found for /Users/johnieng/Desktop/CSC/CSC 430/hello-world/src/main/scala/Main.scala. Using presentation compiler with project's scala-library version: 3.3.4
+2024.12.02 15:08:56 WARN  no build target for: /Users/johnieng/Desktop/CSC/CSC 430/hello-world/src/main/scala/Main.scala
+2024.12.02 15:08:56 INFO  no build target found for /Users/johnieng/Desktop/CSC/CSC 430/hello-world/src/main/scala/Main.scala. Using presentation compiler with project's scala-library version: 3.3.4
+2024.12.02 15:08:56 WARN  no build target for: /Users/johnieng/Desktop/CSC/CSC 430/hello-world/src/main/scala/Main.scala
+2024.12.02 15:08:56 INFO  no build target found for /Users/johnieng/Desktop/CSC/CSC 430/hello-world/src/main/scala/Main.scala. Using presentation compiler with project's scala-library version: 3.3.4
+2024.12.02 15:08:56 WARN  no build target for: /Users/johnieng/Desktop/CSC/CSC 430/hello-world/src/main/scala/Main.scala
+2024.12.02 15:08:56 INFO  no build target found for /Users/johnieng/Desktop/CSC/CSC 430/hello-world/src/main/scala/Main.scala. Using presentation compiler with project's scala-library version: 3.3.4
+2024.12.02 15:08:58 WARN  no build target for: /Users/johnieng/Desktop/CSC/CSC 430/hello-world/src/main/scala/Main.scala
+2024.12.02 15:08:58 INFO  no build target found for /Users/johnieng/Desktop/CSC/CSC 430/hello-world/src/main/scala/Main.scala. Using presentation compiler with project's scala-library version: 3.3.4
+2024.12.02 15:08:58 WARN  no build target for: /Users/johnieng/Desktop/CSC/CSC 430/hello-world/src/main/scala/Main.scala
+2024.12.02 15:08:58 INFO  no build target found for /Users/johnieng/Desktop/CSC/CSC 430/hello-world/src/main/scala/Main.scala. Using presentation compiler with project's scala-library version: 3.3.4
+2024.12.02 15:11:18 INFO  Shutting down server
+2024.12.02 15:11:18 INFO  shutting down Metals
+2024.12.02 15:11:18 INFO  Exiting server
+2024.12.02 15:11:20 INFO  Started: Metals version 1.4.1 in folders '/Users/johnieng/Desktop/CSC/CSC 430/assgn7-scala' for client Visual Studio Code - Insiders 1.96.0-insider.
+Dec 02, 2024 3:11:21 PM org.eclipse.lsp4j.jsonrpc.services.GenericEndpoint notify
+INFO: Unsupported notification method: $/setTrace
+2024.12.02 15:11:24 WARN  Flyway upgrade recommended: H2 2.3.232 is newer than this version of Flyway and support has not been tested. The latest supported version of H2 is 2.2.224.
+Dec 02, 2024 3:11:24 PM org.eclipse.lsp4j.jsonrpc.RemoteEndpoint handleCancellation
+WARNING: Unmatched cancel notification for request id 4
+2024.12.02 15:11:24 INFO  no build target found for /Users/johnieng/Desktop/CSC/CSC 430/assgn7-scala/build.sbt. Using presentation compiler with project's scala-library version: 3.3.4
+2024.12.02 15:11:24 INFO  no build target found for /Users/johnieng/Desktop/CSC/CSC 430/assgn7-scala/build.sbt. Using presentation compiler with project's scala-library version: 3.3.4
+2024.12.02 15:11:24 INFO  no build target found for /Users/johnieng/Desktop/CSC/CSC 430/assgn7-scala/build.sbt. Using presentation compiler with project's scala-library version: 3.3.4
+Dec 02, 2024 3:11:25 PM org.eclipse.lsp4j.jsonrpc.RemoteEndpoint handleCancellation
+WARNING: Unmatched cancel notification for request id 6
+2024.12.02 15:11:24 INFO  no build target found for /Users/johnieng/Desktop/CSC/CSC 430/assgn7-scala/build.sbt. Using presentation compiler with project's scala-library version: 3.3.4
+2024.12.02 15:11:24 INFO  no build target found for /Users/johnieng/Desktop/CSC/CSC 430/assgn7-scala/build.sbt. Using presentation compiler with project's scala-library version: 3.3.4
+2024.12.02 15:11:24 INFO  no build target found for /Users/johnieng/Desktop/CSC/CSC 430/assgn7-scala/build.sbt. Using presentation compiler with project's scala-library version: 3.3.4
+2024.12.02 15:11:24 INFO  no build target found for /Users/johnieng/Desktop/CSC/CSC 430/assgn7-scala/build.sbt. Using presentation compiler with project's scala-library version: 3.3.4
+2024.12.02 15:11:24 INFO  no build target found for /Users/johnieng/Desktop/CSC/CSC 430/assgn7-scala/build.sbt. Using presentation compiler with project's scala-library version: 3.3.4
+Dec 02, 2024 3:11:25 PM org.eclipse.lsp4j.jsonrpc.RemoteEndpoint handleCancellation
+WARNING: Unmatched cancel notification for request id 17
+Dec 02, 2024 3:11:25 PM org.eclipse.lsp4j.jsonrpc.RemoteEndpoint handleCancellation
+WARNING: Unmatched cancel notification for request id 18
+2024.12.02 15:11:30 INFO  running '/Users/johnieng/Library/Java/JavaVirtualMachines/openjdk-22.0.2-1/Contents/Home/bin/java -Djline.terminal=jline.UnsupportedTerminal -Dsbt.log.noformat=true -Dfile.encoding=UTF-8 -jar /var/folders/sl/xxbyztsj3cx7ydckqldv5sdw0000gn/T/metals16534006471341765863/sbt-launch.jar -Dbloop.export-jar-classifiers=sources bloopInstall'
+2024.12.02 15:11:30 INFO  no build target found for /Users/johnieng/Desktop/CSC/CSC 430/assgn7-scala/build.sbt. Using presentation compiler with project's scala-library version: 3.3.4
+2024.12.02 15:11:30 ERROR [info] [launcher] getting org.scala-sbt sbt 1.10.5  (this may take some time)...
+2024.12.02 15:11:30 WARN  no build target for: /Users/johnieng/Desktop/CSC/CSC 430/assgn7-scala/project/metals.sbt
+2024.12.02 15:11:30 WARN  no build target for: /Users/johnieng/Desktop/CSC/CSC 430/assgn7-scala/project/project/metals.sbt
+2024.12.02 15:11:30 INFO  no build target found for /Users/johnieng/Desktop/CSC/CSC 430/assgn7-scala/project/project/metals.sbt. Using presentation compiler with project's scala-library version: 3.3.4
+2024.12.02 15:11:30 INFO  no build target found for /Users/johnieng/Desktop/CSC/CSC 430/assgn7-scala/build.sbt. Using presentation compiler with project's scala-library version: 3.3.4
+2024.12.02 15:11:30 INFO  no build target found for /Users/johnieng/Desktop/CSC/CSC 430/assgn7-scala/project/metals.sbt. Using presentation compiler with project's scala-library version: 3.3.4
+2024.12.02 15:11:36 ERROR [info] [launcher] getting Scala 2.12.20 (for sbt)...
+2024.12.02 15:11:37 INFO  [info] welcome to sbt 1.10.5 (Oracle Corporation Java 22.0.2)
+2024.12.02 15:11:37 INFO  [info] loading settings for project assgn7-scala-build-build from metals.sbt ...
+2024.12.02 15:11:38 INFO  [info] loading project definition from /Users/johnieng/Desktop/CSC/CSC 430/assgn7-scala/project/project
+2024.12.02 15:11:39 INFO  [info] loading settings for project assgn7-scala-build from metals.sbt ...
+2024.12.02 15:11:39 INFO  [info] loading project definition from /Users/johnieng/Desktop/CSC/CSC 430/assgn7-scala/project
+2024.12.02 15:11:41 INFO  [success] Generated .bloop/assgn7-scala-build.json
+2024.12.02 15:11:41 INFO  [success] Total time: 2 s, completed Dec 2, 2024, 3:11:41 PM
+2024.12.02 15:11:41 INFO  [info] loading settings for project assgn7-scala from build.sbt ...
+2024.12.02 15:11:41 INFO  [info] set current project to hello-world (in build file:/Users/johnieng/Desktop/CSC/CSC%20430/assgn7-scala/)
+2024.12.02 15:11:44 INFO  [success] Generated .bloop/assgn7-scala.json
+2024.12.02 15:11:44 INFO  [success] Generated .bloop/assgn7-scala-test.json
+2024.12.02 15:11:44 INFO  [success] Total time: 2 s, completed Dec 2, 2024, 3:11:44 PM
+2024.12.02 15:11:45 INFO  time: ran 'sbt bloopInstall' in 14s
+2024.12.02 15:11:45 INFO  Attempting to connect to the build server...
+2024.12.02 15:11:45 INFO  No running Bloop server found, starting one.
+2024.12.02 15:11:45 INFO  no build target found for /Users/johnieng/Desktop/CSC/CSC 430/assgn7-scala/build.sbt. Using presentation compiler with project's scala-library version: 3.3.4
+2024.12.02 15:11:45 INFO  no build target found for /Users/johnieng/Desktop/CSC/CSC 430/assgn7-scala/src/main/scala/Main.scala. Using presentation compiler with project's scala-library version: 3.3.4
+2024.12.02 15:11:45 INFO  no build target found for /Users/johnieng/Desktop/CSC/CSC 430/assgn7-scala/src/main/scala/Main.scala. Using presentation compiler with project's scala-library version: 3.3.4
+2024.12.02 15:11:50 INFO  Starting compilation server
+2024.12.02 15:11:51 INFO  tracing is disabled for protocol BSP, to enable tracing of incoming and outgoing JSON messages create an empty file at /Users/johnieng/Desktop/CSC/CSC 430/assgn7-scala/.metals/bsp.trace.json or /Users/johnieng/Library/Caches/org.scalameta.metals/bsp.trace.json
+2024.12.02 15:11:59 INFO  Attempting to connect to the build server...
+2024.12.02 15:11:59 INFO  Found a Bloop server running
+2024.12.02 15:11:59 INFO  tracing is disabled for protocol BSP, to enable tracing of incoming and outgoing JSON messages create an empty file at /Users/johnieng/Desktop/CSC/CSC 430/assgn7-scala/project/.metals/bsp.trace.json or /Users/johnieng/Library/Caches/org.scalameta.metals/bsp.trace.json
+2024.12.02 15:12:02 INFO  time: Connected to build server in 17s
+2024.12.02 15:12:02 INFO  Connected to Build server: Bloop v2.0.5
+2024.12.02 15:12:02 INFO  time: Imported build in 0.11s
+2024.12.02 15:12:02 INFO  running doctor check
+2024.12.02 15:12:02 INFO  java targets: assgn7-scala-build, assgn7-scala, assgn7-scala-test
+2024.12.02 15:12:08 WARN  Flyway upgrade recommended: H2 2.3.232 is newer than this version of Flyway and support has not been tested. The latest supported version of H2 is 2.2.224.
+2024.12.02 15:12:19 INFO  time: indexed workspace in 16s
+2024.12.02 15:12:27 INFO  compiling assgn7-scala (1 scala source)
+2024.12.02 15:12:29 INFO  time: compiled assgn7-scala in 2.03s
+2024.12.02 15:12:30 INFO  time: code lens generation in 1.53s
+2024.12.02 15:12:30 INFO  time: code lens generation in 1.53s
+2024.12.02 15:12:30 INFO  time: code lens generation in 1.53s
