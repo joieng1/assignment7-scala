@@ -9,6 +9,4 @@ final case class IdC(s : Symbol) extends ExprC
 final case class AppC(fundef : ExprC, args : List[ExprC]) extends ExprC
 final case class LamC(arg : List[Symbol], body : ExprC) extends ExprC
 final case class IfC(ifCond : ExprC, ifThen : ExprC, ifElse : ExprC) extends ExprC
-final case class PrintC(exp : ExprC) extends ExprC
-final case class InputC() extends ExprC
 
