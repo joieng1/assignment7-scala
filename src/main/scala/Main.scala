@@ -1,3 +1,4 @@
+package AAQZ
 sealed trait Expr
 case class Num(value: Double) extends Expr
 case class Var(name: String) extends Expr
@@ -40,7 +41,6 @@ object Interpreter {
 
   def run(expr: Expr): Double = eval(expr)
 }
-
 
 object Main extends App {
   import Interpreter._
