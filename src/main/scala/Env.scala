@@ -1,4 +1,6 @@
-import Value._
+package AAQZ
+
+import AAQZ.Value
 
 final case class Binding(id : Symbol, value : Value)
 

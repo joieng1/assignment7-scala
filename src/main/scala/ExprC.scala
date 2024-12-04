@@ -1,3 +1,5 @@
+package AAQZ
+
 sealed trait ExprC
 
 // case classes for all ExprC types
