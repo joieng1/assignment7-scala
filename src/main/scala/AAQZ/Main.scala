@@ -13,7 +13,6 @@ import scala.collection.MapView.Id
 // final case class IfC(ifCond : ExprC, ifThen : ExprC, ifElse : ExprC) extends ExprC
 
 object Interpreter {
-
   def eval(expr: ExprC, env: Env): Value = expr match {
     case NumC(n) => NumV(n)
     
@@ -54,22 +53,8 @@ object Interpreter {
         }
       }
     }
-    // case Add(left, right) =>
-    //   eval(left, env) + eval(right, env)
-
-    // case Sub(left, right) =>
-    //   eval(left, env) - eval(right, env)
-
-    // case Mul(left, right) =>
-    //   eval(left, env) * eval(right, env)
-
-    // case Div(left, right) =>
-    //   val denominator = eval(right, env)
-    //   if (denominator == 0) throw new ArithmeticException("Division by zero")
-    //   eval(left, env) / denominator
-
   }
-
+   
   /** interp helper function in case of if. 
   consumes three ExprC (ifCond, ifThen, ifElse) and Env
   if interpreting ifCond results in true BoolV, return ifThen. if false BoolV, return ifElse
@@ -88,13 +73,13 @@ object Interpreter {
   }
 
   /** TODO: what are the errors here? */
-  def interp_equhl(op: Symbol, left: ExprC, right: ExprC, env: Env): Value = {
+  def interp_equal(op: Symbol, left: ExprC, right: ExprC, env: Env): Value = {
     val l = eval(left, env)
     val r = eval(right, env)
-    if (l.isInstanceOf(CloV) or r.isInstanceOf(CloV)) {
+    if (l.isInstanceOf[CloV] || r.isInstanceOf[CloV]) {
       throw new Exception("AAQZ")
     } 
-    else if (l.isInstanceOf(PrimV) or r.isInstanceOf(PrimV)) {
+    else if (l.isInstanceOf[PrimV] || r.isInstanceOf[PrimV]) {
       throw new Exception("AAQZ")
     }
     else if (l == r) {
@@ -105,16 +90,16 @@ object Interpreter {
     }
   }
 
-  def interp_binop(op: Symbol, left: ExprC, right: ExprC, env: Env) {
-    /** TODO */
+  // build this function and what not ...
+  def interp_binop(op: Symbol, left: ExprC, right: ExprC, env: Env): Value = {
+    BoolV(true)
   }
 
-
-
-
-  def run(expr: ExprC): Double = eval(expr, env)
+  // have to provide expr, env so that this runs ..
+  // def run(expr: ExprC): Double = eval(expr, env)
 }
 
+// TODO: what this doing?
 object Main extends App {
   import Interpreter._
 
