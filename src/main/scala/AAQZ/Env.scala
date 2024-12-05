@@ -6,15 +6,15 @@ final case class Binding(id : Symbol, value : Value)
 
 // define env Class
 class Env(private val bindings: List[Binding] = 
-  List(Binding('+, new PrimV(Symbol("+"))),
-       Binding('-, new PrimV(Symbol("-"))),
-       Binding('*, new PrimV(Symbol("*"))),
-       Binding('/, new PrimV(Symbol("/"))),
-       Binding('true, new BoolV(true)),
-       Binding('false, new BoolV(false)),
-       Binding('<=, new PrimV(Symbol("<="))),
-       Binding('equal, new PrimV(Symbol("equal"))),
-       Binding('error, new PrimV(Symbol("error")))
+  List(Binding(Symbol("+"), new PrimV(Symbol("+"))),
+       Binding(Symbol("-"), new PrimV(Symbol("-"))),
+       Binding(Symbol("*"), new PrimV(Symbol("*"))),
+       Binding(Symbol("/"), new PrimV(Symbol("/"))),
+       Binding(Symbol("true"), new BoolV(true)),
+       Binding(Symbol("false"), new BoolV(false)),
+       Binding(Symbol("<="), new PrimV(Symbol("<="))),
+       Binding(Symbol("equal"), new PrimV(Symbol("equal"))),
+       Binding(Symbol("error"), new PrimV(Symbol("error")))
        )) {
     
   // add new binding to bindings
