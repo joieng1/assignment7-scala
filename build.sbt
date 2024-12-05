@@ -25,9 +25,10 @@ version := "1.0"
 // Want to use a published library in your project?
 // You can define other libraries as dependencies in your build like this:
 
-libraryDependencies += Seq(
+libraryDependencies ++= Seq(
   "org.scala-lang.modules" %% "scala-parser-combinators" % "2.3.0",
-  "org.scalatest" %% "scalatest" % "3.2.11" % Test)
+  "org.scalatest" %% "scalatest" % "3.2.11" % Test
+)
 
 // Here, `libraryDependencies` is a set of dependencies, and by using `+=`,
 // we're adding the scala-parser-combinators dependency to the set of dependencies
