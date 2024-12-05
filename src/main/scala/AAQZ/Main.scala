@@ -31,10 +31,10 @@ object Interpreter {
           // binop should be performed on two arguments 
           if (args.length == 2) {
             if (op == Symbol("equal?")) {
-              interp_equal(op, args(0), args(1), env)
+              interp_equal(op, args.head, args.tail.head, env)
             }
             else {
-              interp_binop(op, args(0), args(1), env)
+              interp_binop(op, args.head, args.tail.head, env)
             }
           }
           // unless raising error, in which case only one 
@@ -50,6 +50,19 @@ object Interpreter {
           else {
             throw new Exception("AAQZ invalid argument length for binop")
           }
+        }
+        case CloV(params, body, closEnv) => {
+          val vals = args.map(arg => eval(arg, env))
+          if (vals.length == params.length) {
+            eval(body, env.extendEnvHelper(params, vals, closEnv))
+
+          }
+          else {
+            throw new Exception("AAQZ CloV must have same number of arguments and symbols")
+          }
+        }
+        case _ => {
+          throw new Exception("AAQZ attempted to apply a non-function value")
         }
       }
     }
