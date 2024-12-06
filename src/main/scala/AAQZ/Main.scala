@@ -5,25 +5,13 @@ import AAQZ.ExprC
 import scala.collection.MapView.Id
 //import org.scalatest.funsuite.AnyFunSuite
 
-// final case class NumC(n : Double) extends ExprC
-// final case class StrC(s : String) extends ExprC
-// final case class IdC(s : Symbol) extends ExprC
-// final case class AppC(fundef : ExprC, args : List[ExprC]) extends ExprC
-// final case class LamC(arg : List[Symbol], body : ExprC) extends ExprC
-// final case class IfC(ifCond : ExprC, ifThen : ExprC, ifElse : ExprC) extends ExprC
-
 object Interpreter {
   def eval(expr: ExprC, env: Env): Value = expr match {
     case NumC(n) => NumV(n)
-    
     case StrC(s) => StrV(s)
-
     case LamC(args, body) => CloV(args, body, env)
-
     case IfC(ifCond, ifThen, ifElse) => interp_if(ifCond, ifThen, ifElse, env)
-    
     case IdC(s) => env.lookup(s)
-
     case AppC(fundef, args) => {
       val f_value = eval(fundef, env)
       f_value match {
@@ -90,10 +78,10 @@ object Interpreter {
     val l = eval(left, env)
     val r = eval(right, env)
     if (l.isInstanceOf[CloV] || r.isInstanceOf[CloV]) {
-      throw new Exception("AAQZ")
+      BoolV(false)
     } 
     else if (l.isInstanceOf[PrimV] || r.isInstanceOf[PrimV]) {
-      throw new Exception("AAQZ")
+      BoolV(false)
     }
     else if (l == r) {
       BoolV(true)
@@ -103,9 +91,38 @@ object Interpreter {
     }
   }
 
-  // build this function and what not ...
+  /** interp helper function in case of binary operation
+   * consumes operand, left and right operators, and environment 
+   * returns outcome of Operation as a Value */
   def interp_binop(op: Symbol, left: ExprC, right: ExprC, env: Env): Value = {
-    BoolV(true)
+    val l = eval(left, env)
+    val r = eval(right, env)
+    if (op == 'error) {
+      throw new Exception("AAQZ cannot perform 'error on two arguments")
+    }
+    else {
+      if (l.isInstanceOf[NumV] && r.isInstanceOf[NumV]) {
+        op match {
+          // TODO: errors being raised ... should we cast?
+          // we know l and r are NumV because we checked alr (line 104), but how can 
+          // we get scala parser to recognize that?
+          case '+ => NumV(l.n + r.n)
+          case '- => NumV(l.n - r.n)
+          case '* => NumV(l.n * r.n)
+          case '/ => if (r.n == 0) {
+            throw new Exception("AAQZ cannot divide by 0")
+          }
+          else {
+            NumV(l.n / r.n)
+          }
+          case '<= => NumV(0)
+          case _ => throw new Exception("AAQZ binop not supported")
+        }
+      } 
+      else {
+        throw new Exception("AAQZ cannot perform binop on non-numbers")
+      }
+    }
   }
 
   // have to provide expr, env so that this runs ..
