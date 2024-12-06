@@ -20,6 +20,8 @@ class Env(private val bindings: List[Binding] =
   // add new binding to bindings
   def extendEnv(binding : Binding) : Env = new Env(binding :: bindings)
 
+  def extendEnv(listOfbindings : List[Binding]) : Env = new Env(listOfbindings ++ bindings)
+
 // def lookup
   def lookup(targetId : Symbol) : Value = {
     bindings.find(binding => binding.id == targetId) match {
