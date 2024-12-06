@@ -139,7 +139,7 @@ object Interpreter {
   }
 }
 
-// TODO: what this doing?
-object Main extends App {
-  import Interpreter._
-}
+// not needed because we will not be running main
+// object Main extends App {
+//   import Interpreter._
+// }
