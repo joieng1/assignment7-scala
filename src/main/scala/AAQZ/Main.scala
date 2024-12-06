@@ -137,9 +137,6 @@ object Interpreter {
 
     }
   }
-
-  // have to provide expr, env so that this runs ..
-  // def run(expr: ExprC): Double = eval(expr, env)
 }
 
 // TODO: what this doing?
